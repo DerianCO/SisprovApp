@@ -14,3 +14,48 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+p{
+    text-align: justify;
+    color: #A4A4A4;
+    font-size: 1.2em;
+}
+
+h2{
+    font-weight: bold;
+    color: #848484;
+    text-align: center;
+}
+
+.logoApp{
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.titleApp{
+    position: relative;
+}
+
+.textApp{
+    position: absolute;
+    top: -5%;
+    left: 18%;
+    font-weight: 200;
+}
+
+.mesagge-welcome-box{
+    padding: 20px;
+    text-align: center;
+}
+
+.mesagge-welcome-box>p{
+    text-align: justify;
+    color: #A4A4A4;
+}
+
+.mesagge-welcome-title{
+    font-weight: bold;
+    color: #848484;
+}
